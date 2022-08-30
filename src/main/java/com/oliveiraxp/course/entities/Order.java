@@ -16,7 +16,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import com.oliveiraxp.course.entities.enums.OrderStatus;
 
 @Entity
-@Table(name = "order_tb")
+@Table(name = "tb_order")
 public class Order implements Serializable {
 	private static final long serialVersionUID = 1L;
 
